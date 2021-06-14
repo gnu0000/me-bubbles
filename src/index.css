@@ -1,0 +1,35 @@
+
+body{
+   margin: 0;
+   padding: 0;
+}
+
+#header{
+   margin: 0;
+   background: skyblue;
+   height: 2em;
+   padding: 1em;
+}
+
+#header h2{
+   margin: 0em;
+}
+
+#view{
+   width: 100%;
+   height: calc(100vh - 10em);
+}
+
+#view canvas{
+   width: 100%;
+   height: 100%;
+}
+
+#buttons{
+   padding: 1em;
+   text-align: center;
+}
+
+#buttons button{
+   margin: .5em;
+}
